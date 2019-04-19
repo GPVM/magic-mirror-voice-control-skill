@@ -1,7 +1,7 @@
 # Magic Mirror Voice Control
 Give voice commands to Mycroft to control a Magic Mirror using the MMM-Remote-Control module.
 
-## Description
+## About
 This mycroft skill passes commands to an accessible MagicMirror installed anywhere on the same network as Mycroft. It requires a working install of [MagicMirror](https://github.com/MichMich/MagicMirror) and the [MMM-Remote-Control module](https://github.com/Jopyth/MMM-Remote-Control). It must be installed AND ACCESSIBLE ON THE SAME NETWORK AS MYCROFT.
 
 This skill requires MMM-Remote-Control be installed and working properly on the MagicMirror.
@@ -72,7 +72,6 @@ The skill is configured to connect to the default port of :8080, which is the de
 
 It can be tricky to properly whitelist the ip of your Mycroft in the MagicMirror's config.js. Instructions can be found [here](https://github.com/Jopyth/MMM-Remote-Control/issues/75).
 
-
 ## Examples
 * "Hey Mycroft: hide clock"
 * "show clock"
@@ -101,7 +100,6 @@ It can be tricky to properly whitelist the ip of your Mycroft in the MagicMirror
 * Michael Teeuw [MichMich](https://github.com/MichMich) the creator of MagicMirror
 * [Jopyth](https://github.com/Jopyth) for MMM-Remote-Control module
 * fewieden a.k.a. [strawberry 3.141](https://github.com/fewieden) for pointing me in the right direction at the start
-
 
 ## Require
 platform_picroft, or platform_mark1, or platform_plasmoid
